@@ -34,6 +34,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             MSAnalytics.self,
             MSCrashes.self
             ])
+        
+        
+        MSAppCenter.setLogLevel(.verbose)
+        
+        
 //      for push notification
         MSAppCenter.start("{b9b75488-9d09-43b4-b051-7b7093628200}", withServices: [MSPush.self])
         
