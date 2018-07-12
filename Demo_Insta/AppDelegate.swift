@@ -10,6 +10,12 @@ import UIKit
 import CoreData
 import Parse
 import Bolts
+import AppCenter
+import AppCenterAnalytics
+import AppCenterCrashes
+import AppCenterPush
+
+
 //import Flurry
 
 
@@ -21,6 +27,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+
+        
+//       for analytics
+        MSAppCenter.start("b9b75488-9d09-43b4-b051-7b7093628200", withServices:[
+            MSAnalytics.self,
+            MSCrashes.self
+            ])
+//      for push notification
+        MSAppCenter.start("{b9b75488-9d09-43b4-b051-7b7093628200}", withServices: [MSPush.self])
+        
+        
+        
         
         Flurry.startSession("99G6WK7YX232C8M7KX6Y", with: FlurrySessionBuilder
             .init()

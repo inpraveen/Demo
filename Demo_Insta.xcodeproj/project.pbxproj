@@ -796,7 +796,7 @@
 					"-framework",
 					"\"Parse\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.worldfashionexchange.Inspire;
+				PRODUCT_BUNDLE_IDENTIFIER = com.worldfashionexchange.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -838,7 +838,7 @@
 					"-framework",
 					"\"Parse\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.worldfashionexchange.Inspire;
+				PRODUCT_BUNDLE_IDENTIFIER = com.worldfashionexchange.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";

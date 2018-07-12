@@ -5,6 +5,10 @@ target 'Demo_Insta' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 	pod 'Parse'
+    pod 'AppCenter'
+    pod 'AppCenter/Analytics'
+    pod 'AppCenter/Crashes'
+    pod 'AppCenter/Push'
 
   # Pods for Demo_Insta
 
